@@ -97,6 +97,32 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    font-family: 'Inter UI', sans-serif;
+}
+
+.header{
+  padding-top:20px;
+  padding-bottom:24px;
+}
+.header-nav{
+  font-family: Oswald, sans-serif;
+  font-size: 15px;
+  float:right;
+  padding-right: 20px;
+}
+ol,ul{
+  list-style: none;
+}
+a,.header-nav-link:link{
+  text-decoration: none;
+  color:black;
+}
+
+a:hover{
+  color:#FFCC11;
+  transition: color .3s;
+}
 
 
 
@@ -201,6 +227,7 @@ textarea {
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+    /**add stuff here Ana, for media styling**/
 }
 
 @media print,
