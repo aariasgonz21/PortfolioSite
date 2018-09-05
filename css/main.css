@@ -113,6 +113,7 @@ body {
 }
 ol,ul{
   list-style: none;
+  display: inline;
 }
 a,.header-nav-link:link{
   text-decoration: none;
@@ -124,7 +125,51 @@ a:hover{
   transition: color .3s;
 }
 
+/* will tinker with nav responsiveness later
+.nav-mobile{
+  display:none;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background: #34495E url(../img/star.png) no repeat center center;
+  border-radius: 5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+}
+*/
+.name{
+  text-align: center;
+  float: none;
+  font-family: Oswald, sans-serif;
+  font-weight: lighter;
+  font-size: 47px;
+  padding-left: 10%;
+  padding-bottom: 50%;
+}
 
+
+@media only screen and (max-width: 768px) {
+  .name{
+    font-size:28px;
+    padding-right: 10%;
+  }
+
+  .header-nav{
+    display: none;
+  }
+
+/***will tinker with mobile nav responsiveness later**
+                                                    **
+  .nav-mobile{                                      **
+    display:block;                                  **
+  }                                                 **
+                                                    **
+  .header-nav-link{                                 **
+    width:100%;                                     **
+    float: none;                                    **
+  }                                                 **
+/*****************************************************/
+}
 
 
 
