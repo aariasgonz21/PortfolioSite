@@ -111,19 +111,22 @@ body {
   float:right;
   padding-right: 20px;
 }
+
 ol,ul{
   list-style: none;
   display: inline;
 }
 a,.header-nav-link:link{
-  text-decoration: none;
-  color:black;
+ color:black;
 }
 
 a:hover{
   color:#FFCC11;
   transition: color .3s;
+  text-decoration: none;
 }
+
+
 
 /* will tinker with nav responsiveness later
 .nav-mobile{
@@ -144,9 +147,19 @@ a:hover{
   font-weight: lighter;
   font-size: 47px;
   padding-left: 10%;
-  padding-bottom: 50%;
+  padding-bottom: 0.5%;
 }
 
+.star{
+  vertical-align: sub;
+  padding-left: 8px;
+  padding-bottom:8px;
+}
+
+.slide1{
+  padding-left: 100px;
+  padding-right: 100px;
+}
 
 @media only screen and (max-width: 768px) {
   .name{
